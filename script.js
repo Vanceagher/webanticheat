@@ -5,6 +5,7 @@ document.title = "Get back here in 3"
 setTimeout(function(){ if (document.visibilityState != "visible") {document.title = "Get back here in 2"}; }, 1000);
 setTimeout(function(){ if (document.visibilityState != "visible") {document.title = "Get back here in 1"}; }, 2000);
 setTimeout(function(){ if (document.visibilityState != "visible") {document.title = "Get back here in 0"}; }, 3000);
+setTimeout(function(){ if (document.visibilityState != "visible") {document.title = "Dang cheater!"}; }, 4000);
 
 setTimeout(function(){ if (document.visibilityState != "visible") {alert("I know you swapped tabs.")}; }, 3000);
 
